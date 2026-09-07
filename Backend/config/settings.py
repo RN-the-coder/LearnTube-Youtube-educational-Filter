@@ -139,6 +139,8 @@ MAILERS = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "https://learn-tube-youtube-educational-filt.vercel.app",
 ]
 
 YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
